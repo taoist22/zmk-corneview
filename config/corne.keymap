@@ -12,9 +12,10 @@
     combos {
         compatible = "zmk,combos";
 
-        capslock {
+        combo_capslock {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
+            timeout-ms = <50>;
         };
     };
 
@@ -26,7 +27,7 @@
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | ENT |   | RSE | SPC  | ALT |
+            //                    | GUI | RSE | ENT |   | LWR | SPC  | ALT |
 
             display-name = "Base";
             bindings = <
