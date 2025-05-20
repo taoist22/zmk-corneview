@@ -72,10 +72,10 @@
 
         numpad {
             bindings = <
-&trans  &trans  &trans  &kp R   &kp KP_RIGHT_PARENTHESIS  &kp BSLH    &kp FSLH         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_SUBTRACT  &kp BACKSPACE
-&trans  &kp A   &kp S   &kp F   &kp G                     &kp H       &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp KP_EQUAL
-&trans  &kp Z   &trans  &trans  &trans                    &trans      &kp M            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD       &kp KP_ENTER
-                        &trans  &trans                    &trans      &trans           &trans        &kp NUMBER_0
+&bt BT_CLR_ALL  &trans  &trans  &kp R   &kp KP_RIGHT_PARENTHESIS  &kp BSLH    &kp FSLH         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_SUBTRACT  &kp BACKSPACE
+&trans          &kp A   &kp S   &kp F   &kp G                     &kp H       &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp KP_EQUAL
+&trans          &kp Z   &trans  &trans  &trans                    &trans      &kp M            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD       &kp KP_ENTER
+                                &trans  &trans                    &trans      &trans           &trans        &kp NUMBER_0
             >;
         };
     };
