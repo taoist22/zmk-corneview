@@ -47,10 +47,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB     &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6    &kp F7    &kp F8    &kp F9     &kp F10  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans   &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans   &trans
-                                        &kp LCTRL     &kp LALT      &kp LCMD        &kp RET   &trans    &kp RALT
+&kp TAB    &kp F1           &kp F2   &kp F3            &kp F4         &kp F5        &kp F6    &kp F7    &kp F8    &kp F9     &kp F10  &kp BSPC
+&kp TAB    &kp PRINTSCREEN  &kp INS  &kp K_VOLUME_UP2  &kp C_AL_CALC  &kp K_PREV    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans   &trans
+&kp LSHFT  &trans           &trans   &trans            &trans         &trans        &trans    &trans    &trans    &trans     &trans   &trans
+                                     &kp LCTRL         &kp LALT       &kp LCMD      &kp RET   &trans    &kp RALT
             >;
         };
 
@@ -72,10 +72,10 @@
 
         numpad {
             bindings = <
-&bt BT_CLR_ALL  &trans  &trans  &kp R   &kp KP_RIGHT_PARENTHESIS  &kp BSLH    &kp FSLH         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_SUBTRACT  &kp BACKSPACE
-&trans          &kp A   &kp S   &kp F   &kp G                     &kp H       &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp KP_EQUAL
-&trans          &kp Z   &trans  &trans  &trans                    &trans      &kp M            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD       &kp KP_ENTER
-                                &trans  &trans                    &trans      &trans           &trans        &kp NUMBER_0
+&bt BT_CLR_ALL  &trans        &trans        &kp R         &kp KP_RIGHT_PARENTHESIS  &kp BSLH        &kp FSLH         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_SUBTRACT  &kp BACKSPACE
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3              &bt BT_SEL 4    &kp KP_MULTIPLY  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp KP_EQUAL
+&trans          &kp Z         &trans        &trans        &trans                    &trans          &kp M            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD       &kp KP_ENTER
+                                            &trans        &trans                    &trans          &trans           &trans        &kp NUMBER_0
             >;
         };
     };
